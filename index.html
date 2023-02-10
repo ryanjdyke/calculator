@@ -4,9 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
     <title>Calculator</title>
 </head>
 <body>
+    <div class="frame">
+        <div class="screen">
+            <div class = "answerDisplay" id="topAnswerDisplay"></div>
+            <div class = "answerDisplay" id="bottomAnswerDisplay"></div>
+            <button id="clear">C</button>
+            <button class = "blank" id="blank"></button>
+            <button id="backspace">B</button>
+            <button class = "operator" id="divide">/</button>
+            <button class = "numberButton" id="7">7</button>
+            <button class = "numberButton" id="8">8</button>
+            <button class = "numberButton" id="9">9</button>
+            <button class = "operator" id="multiply">x</button>
+            <button class = "numberButton" id="4">4</button>
+            <button class = "numberButton" id="5">5</button>
+            <button class = "numberButton" id="6">6</button>
+            <button class = "operator" id="subtract">-</button>
+            <button class = "numberButton" id="1">1</button>
+            <button class = "numberButton" id="2">2</button>
+            <button class = "numberButton" id="3">3</button>
+            <button class = "operator" id="add">+</button>
+            <button class = "numberButton" id="0">0</button>
+            <button class = "blank" id="blank"></button>
+            <button class = "blank" id="blank"></button>
+            <button id="equals">=</button>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
