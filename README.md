@@ -1,5 +1,5 @@
 <h1>Calculator</h1>
-An calculator using HTML5, CSS3, and Javascript ES6. It takes input either from mouse or keyboard.
+A calculator using HTML5, CSS3, and Javascript ES6. It takes input either from mouse or keyboard.
 
 <h2>Features</h2>
 
